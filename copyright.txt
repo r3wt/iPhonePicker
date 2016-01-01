@@ -1,0 +1,27 @@
+/* 
+ *  iPhonePicker v{{version}} (c) 2015-16 Garrett Morris
+ *
+ *  based on: https://marinovdh.wordpress.com/2011/09/14/use-the-iphone-uipickerview-control-as-a-selectbox-on-your-website-with-jquery/
+ *  Dual licensed under the MIT or GPL Version 2 licenses.
+ *  
+ *  Original derived control:
+ *
+ *  Overscroll v1.4.7
+ *  A jQuery Plugin that emulates the iPhone scrolling experience in a browser.
+ *  http://azoffdesign.com/overscroll
+ *
+ *  Copyright 2011, Jonathan Azoff
+ *  Dual licensed under the MIT or GPL Version 2 licenses.
+ *  http://jquery.org/license
+ *
+ *  For API documentation, see the README file
+ *  https://github.com/azoff/Overscroll/blob/master/README.md
+ *
+ *  Date: Friday, July 15th 2011
+ *
+ *  Also used Control (see below this page): jQuery.ScrollTo
+ *  Copyright (c) 2007-2009 Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.blogspot.com
+ *  Dual licensed under MIT and GPL.
+ *  Date: 5/25/2009
+ *
+ */
