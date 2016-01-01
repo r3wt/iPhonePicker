@@ -79,7 +79,7 @@ var ITEM_OFFSET = parseInt(37);
         // main initialization function
         init: function (target, options) {
 
-            var targs = ['iphonepicker.js','iphonepicker.min.js'],
+            var targs = ['iphonepicker.js','iphonepicker-1.1.1.js','iphonepicker-{{version}}.min.js'],
             scriptPath = (function() {
                 if (document.currentScript) {
                     s = document.currentScript.src;
@@ -112,9 +112,9 @@ var ITEM_OFFSET = parseInt(37);
                     s = '/';
                   }
                   s = s.replace('//','/');
-                  console.log(s);
                   return s;
                 }
+                
                 return extractPath(s);
             })();
             

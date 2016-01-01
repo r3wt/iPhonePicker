@@ -15,6 +15,7 @@ gulp.task('default', function() {
 		
 	for(var prop in replace){
 		copyright = copyright.replace(prop,replace[prop]);
+		file = file.replace(prop,replace[prop]);
 	}
 	var tmp = file.split('\r\n');
 	for(var j=0;j<tmp.length;j++){
