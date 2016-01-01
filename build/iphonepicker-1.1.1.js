@@ -79,7 +79,7 @@ var ITEM_OFFSET = parseInt(37);
         // main initialization function
         init: function (target, options) {
 
-            var targs = ['iphonepicker.js','iphonepicker-1.1.1.js','iphonepicker-{{version}}.min.js'],
+            var targs = ['iphonepicker.js','iphonepicker-1.1.1.js','iphonepicker-1.1.1.min.js'],
             scriptPath = (function() {
                 if (document.currentScript) {
                     s = document.currentScript.src;

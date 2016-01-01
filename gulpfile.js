@@ -14,8 +14,9 @@ gulp.task('default', function() {
 		file = fs.readFileSync('./iphonepicker.js','utf8');
 		
 	for(var prop in replace){
-		copyright = copyright.replace(prop,replace[prop]);
-		file = file.replace(prop,replace[prop]);
+		var reg = new RegExp(prop, 'g');
+		copyright = copyright.replace(reg,replace[prop]);
+		file = file.replace(reg,replace[prop]);
 	}
 	var tmp = file.split('\r\n');
 	for(var j=0;j<tmp.length;j++){
