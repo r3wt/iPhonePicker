@@ -102,7 +102,7 @@ var ITEM_OFFSET = parseInt(37);
                     }
                 }
                 function extractPath(s){
-                  s = s.replace(/^https?:\/\/[^\/]+((?:\/[^\/]*)*)/,'$1');
+                  s = s.replace(/^https?:\/\/[^\/]+\//,'');
                   s = s.replace('./','');
                   s = s.split('/');
                   s.pop();
