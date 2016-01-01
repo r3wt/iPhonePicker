@@ -10,6 +10,7 @@ Read about how he developed the plugin here: https://marinovdh.wordpress.com/201
 3. run gulp `gulp`. builds in `build` directory:
 	- iphonepicker-x.x.x.js
 	- iphonepicker-x.x.x.min.js
+	
 ---
 
 PR's welcomed
